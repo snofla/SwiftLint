@@ -67,6 +67,12 @@ final class BlockBasedKVORuleGeneratedTests: SwiftLintTestCase {
     }
 }
 
+final class CaptureSelfWeaklyInClosuresRuleGeneratedTests: SwiftLintTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(CaptureSelfWeaklyInClosuresRule.description)
+    }
+}
+
 final class CaptureVariableRuleGeneratedTests: SwiftLintTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(CaptureVariableRule.description)

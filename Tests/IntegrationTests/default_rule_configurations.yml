@@ -54,6 +54,11 @@ block_based_kvo:
   meta:
     opt-in: false
     correctable: false
+capture_self_weakly_in_closures:
+  severity: warning
+  meta:
+    opt-in: true
+    correctable: false
 capture_variable:
   severity: warning
   meta:
