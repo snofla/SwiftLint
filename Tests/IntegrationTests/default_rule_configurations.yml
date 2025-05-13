@@ -728,6 +728,11 @@ no_magic_numbers:
   meta:
     opt-in: true
     correctable: false
+no_mutating_partial_result_in_reduce:
+  severity: warning
+  meta:
+    opt-in: true
+    correctable: false
 no_space_in_method_call:
   severity: warning
   meta:
