@@ -131,6 +131,7 @@ public let builtInRules: [any Rule.Type] = [
     NoFallthroughOnlyRule.self,
     NoGroupingExtensionRule.self,
     NoMagicNumbersRule.self,
+    NoMutatingPartialResultInReduceRule.self,
     NoSpaceInMethodCallRule.self,
     NonOptionalStringDataConversionRule.self,
     NonOverridableClassDeclarationRule.self,

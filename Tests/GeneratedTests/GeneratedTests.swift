@@ -781,6 +781,12 @@ final class NoMagicNumbersRuleGeneratedTests: SwiftLintTestCase {
     }
 }
 
+final class NoMutatingPartialResultInReduceRuleGeneratedTests: SwiftLintTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(NoMutatingPartialResultInReduceRule.description)
+    }
+}
+
 final class NoSpaceInMethodCallRuleGeneratedTests: SwiftLintTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(NoSpaceInMethodCallRule.description)
