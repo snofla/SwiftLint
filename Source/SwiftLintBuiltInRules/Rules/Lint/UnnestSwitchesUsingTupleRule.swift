@@ -110,7 +110,6 @@ struct UnnestSwitchesUsingTupleRule: Rule {
                     }
                 }
             """),
-
         ]
     )
 }
