@@ -39,6 +39,10 @@
 * Add new `unnest_switches_using_tuple` opt-in rule that triggers when
   nested switches are encountered that reference the same variable. These
   can be replaced by a switch on a tuple.  
+  [Alfons Hoogervorst](https://github.com/snofla/SwiftLint)  
+* Add new `reduce_into_instead_of_loop` opt-in rule that triggers when a  
+  `for ... in <sequence>` is used to update a sequence where a `reduce(into:)` is  
+  preferred.  
   [Alfons Hoogervorst](https://github.com/snofla/SwiftLint)
 
 ### Bug Fixes
